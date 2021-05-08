@@ -1,4 +1,5 @@
-#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 
+
 
 #include<stdio.h>
 #define N 5
@@ -12,7 +13,8 @@ int main()
 	for (j = 0; j < N; j++)
 		scanf("%d", &a[j]);      //输入要排序的数
 	printf("\n");
-	for (i = 0; i < N - 1; i++)          //外循环，循环N次
+	for (i = 0; i < N - 1; i++)  
+	//外循环，循环N次
 	{
 		k = i;
 		for (j = i + 1; j < N; j++)      //内循环
