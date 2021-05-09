@@ -1,0 +1,2 @@
+D:\vs项目\回文数\Debug\回文数.exe
+D:\vs项目\回文数\Debug\回文数.pdb
